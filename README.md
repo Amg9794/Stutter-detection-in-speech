@@ -1,4 +1,5 @@
-# Stutter Diagnosis and Therapy System based on Deep Learning: 
+# Stutter detection in speech
+
 
 Reproduce result of paper https://arxiv.org/abs/2007.08003 on own in house created dataset including speaker of varying age and gender
 
