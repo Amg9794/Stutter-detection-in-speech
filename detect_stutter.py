@@ -5,8 +5,8 @@ from pydub import AudioSegment
 from keras.models import load_model
 import os
 
-model_rep = load_model('/home/mansi/anaconda3/beproject/stutter_det/models/best_model_rep.h5')
-model_pro = load_model('/home/mansi/anaconda3/beproject/stutter_det/models/best_model_pro.h5')
+model_rep = load_model('/home/aman/anaconda3/beproject/stutter_det/models/best_model_rep.h5')
+model_pro = load_model('/home/aman/anaconda3/beproject/stutter_det/models/best_model_pro.h5')
 
 def detect_prolongation(mfcc): 
     s = 0
@@ -64,7 +64,7 @@ def detect_stutter(audio):
     return p_sev, r_sev, o_sev
 
 if __name__== "__main__":
-    common = '/home/mansi/anaconda3/beproject/stutter_det/demo_audios'
+    common = '/home/aman/anaconda3/beproject/stutter_det/demo_audios'
     arr1 = os.listdir(common)
     for a in arr1:
         print('\n'+a)
