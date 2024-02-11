@@ -4,7 +4,7 @@ import librosa
 import pandas as pd
 import os
 
-common_path = "/home/mansi/anaconda3/beproject/stutter_det/ache_2/"
+common_path = "/home/aman/anaconda3/beproject/stutter_det/ache_2/"
 print(common_path)
 flag = 0
 flag2 = 0
